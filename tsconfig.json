@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+   "target": "ES2022", // specifies the targer ECMAScript version for the output JavaScript files. Here, it targets ES2022
+   "module": "Node16",
+   "lib": ["ES2022"],
+   "Strict":true,
+   "esModuleInterop": true,
+   "moduleResolution": "Node16",
+   "rootDir": ".",
+   "outDir": "dist",
+   "allowSyntheticDefaultImports": true,
+   "importHelpers": true,
+   "alwaysStrict": true,
+   "sourceMap": true,
+   "forceConsistentCastingInFileNames": true,
+   "noFallthroughCasesInSwitch": true,
+   "noImplicitReturns": true,
+   "noUnusedLocals": true,
+   "noUnusedParameters": true,
+   "noImplicitAny": false,
+   "noImplicitThis": false,
+   "strictNullChecks": false,
+   "skiplibcheck": true,
+   "typeRoots": ["./node_modules/@types", "./src/types"],
+  },
+  "include": ["src/**/*"]
+}
+
+   

@@ -1,0 +1,22 @@
+{
+  "name": "weather_api",
+  "version": "1.0.0",
+  "description": "The Weather API",
+  "type": "module",
+  "engines": {
+    "node": ">=18.12 <21"
+  },
+  "license": "MIT",
+  "author": "Lucian Duta",
+  "devDependencies": {
+    "-": "^0.0.1",
+    "@types/node": "^20.11.25",
+    "all": "^0.0.0",
+    "nodemon": "^3.1.0",
+    "npm": "^10.5.0",
+    "run": "^1.5.0",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.2"
+  }
+}
