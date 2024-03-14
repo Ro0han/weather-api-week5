@@ -3,7 +3,7 @@
    "target": "ES2022", // specifies the targer ECMAScript version for the output JavaScript files. Here, it targets ES2022
    "module": "Node16",
    "lib": ["ES2022"],
-   "Strict":true,
+   "strict":true,
    "esModuleInterop": true,
    "moduleResolution": "Node16",
    "rootDir": ".",
