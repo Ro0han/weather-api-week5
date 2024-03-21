@@ -12,6 +12,5 @@ app.use("/api/weather", weatherRoute);
 
 //start the express server
 app.listen(PORT, () => {
-    console.log('Server is listening on port ${PORT}');
-
+  console.log("Server is listening on port ${PORT}");
 });
